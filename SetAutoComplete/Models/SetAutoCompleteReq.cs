@@ -15,7 +15,7 @@ namespace SetAutoComplete
 
     public class CompletionOptions
     {
-        public string DeleteSourceBranch { get; set; } = "true";
+        public string DeleteSourceBranch { get; set; } = "false";
         public string MergeCommitMessage { get; set; }
         public string SquashMerge { get; set; } = "false";
     }
